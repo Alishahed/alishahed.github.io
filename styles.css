@@ -23,3 +23,13 @@ nav li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+.container {
+    width: 80%;  /* or set a fixed width, e.g., 960px */
+    margin: 0 auto;  /* centers the container */
+}
+
+/* Optional: Add some padding and background color for better visibility */
+.container {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
