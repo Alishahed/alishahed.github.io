@@ -69,7 +69,7 @@ body {
 .social-links a {
     display: inline-block;
     margin-right: 15px; /* Adds spacing between the icons */
-    color: #333;
+    color: #eee6e6;
     font-size: 24px; /* Adjust the size of the icons as needed */
 }
 
