@@ -42,21 +42,17 @@ body {
 
 .bio-section {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
 }
 
-.image-and-links {
-    flex-basis: 250px; /* Adjust width of the image container */
-    text-align: center;
-}
-
 .profile-image {
-    max-width: 150px;
-    height: 150px;
-    border-radius: 75%;
-    margin-bottom: 20px; /* Space between image and social links */
-    object-fit: cover;
+    float: left; /* Floats the image to the left */
+    margin-right: 20px; /* Adds spacing between the image and the text */
+    width: 150px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    border-radius: 100%; /* Keeps the image round */
 }
 
 .social-links {
