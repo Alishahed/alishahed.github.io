@@ -119,3 +119,15 @@ a:hover {
 a:visited {
     color: purple;
 }
+
+@media screen and (max-width: 768px) {
+    .nav-list {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-item {
+        display: block;
+        margin: 10px 0;
+    }
+}
