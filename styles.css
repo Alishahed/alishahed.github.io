@@ -51,7 +51,7 @@ body {
     float: left; /* Floats the image to the left */
     margin-right: 20px; /* Adds spacing between the image and the text */
     width: 150px; /* Adjust width as needed */
-    height: 150px; /* Adjust height as needed */
+    height: 170px; /* Adjust height as needed */
     border-radius: 100%; /* Keeps the image round */
 }
 
@@ -83,6 +83,26 @@ body {
     font-weight: bold;
     color: #fff; /* White font color */
     margin-bottom: 20px; /* Space between name and navigation menu */
+    cursor: pointer;
+}
+
+.short-name, .full-name {
+    transition: opacity 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+.full-name {
+    display: none; /* Hide the full name initially */
+    opacity: 0;
+}
+
+.name-title:hover .short-name {
+    display: none; /* Hide the short name on hover */
+    opacity: 0;
+}
+
+.name-title:hover .full-name {
+    display: inline; /* Show the full name on hover */
+    opacity: 1;
 }
 
 .biography {
