@@ -1,35 +1,121 @@
 body {
     font-family: Arial, sans-serif;
-    padding: 0;
-    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.container {
+    width: 80%;
+    margin: auto;
     overflow: hidden;
-    background-color: #333;
 }
 
-nav li {
-    float: left;
+.main-header {
+    background: #333;
+    color: #fff;
+    text-align: center; /* Center align elements in the header */
+    padding: 20px 0; /* Add some padding */
+}
+.navbar {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
 
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: inline-block; /* Align menu items horizontally */
+}
+
+.nav-item {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-item a {
+    color: #fff;
     text-decoration: none;
-}
-.container {
-    width: 80%;  /* or set a fixed width, e.g., 960px */
-    margin: 0 auto;  /* centers the container */
+    font-size: 18px;
 }
 
-/* Optional: Add some padding and background color for better visibility */
-.container {
+.bio-section {
+    display: flex;
+    align-items: flex-start;
     padding: 20px;
-    background-color: #f9f9f9;
+}
+
+.image-and-links {
+    flex-basis: 250px; /* Adjust width of the image container */
+    text-align: center;
+}
+
+.profile-image {
+    max-width: 250px;
+    height: 250px;
+    border-radius: 75%;
+    margin-bottom: 20px; /* Space between image and social links */
+    object-fit: cover;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row; /* Aligns items in a row */
+    justify-content: center; /* Center the links horizontally */
+    align-items: center; /* Align the links vertically */
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 15px; /* Adds spacing between the icons */
+    color: #333;
+    font-size: 24px; /* Adjust the size of the icons as needed */
+}
+
+.social-links a:last-child {
+    margin-right: 0; /* Removes margin from the last icon */
+}
+
+.social-links a:hover {
+    color: #0077B5; /* Example hover color, adjust as needed */
+}
+
+
+.name-title {
+    font-size: 48px; /* Adjust the size as needed */
+    font-weight: bold;
+    color: #fff; /* White font color */
+    margin-bottom: 20px; /* Space between name and navigation menu */
+}
+
+.biography {
+    margin-top: 0px; /* Adjust space above the biography */
+    margin-left: 20px;
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+.biography h2 {
+    margin-bottom: 10px;
+}
+
+.biography p, .biography ul {
+    margin-bottom: 10px;
+}
+
+.biography li {
+    line-height: 1.6;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: purple;
 }
