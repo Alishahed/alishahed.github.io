@@ -52,8 +52,8 @@ body {
 }
 
 .profile-image {
-    max-width: 250px;
-    height: 250px;
+    max-width: 150px;
+    height: 150px;
     border-radius: 75%;
     margin-bottom: 20px; /* Space between image and social links */
     object-fit: cover;
